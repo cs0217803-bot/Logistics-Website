@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transport & Logistic</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Adjusting the navbar size */
+    .main_menu {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+    }
+
+    .main_menu_logo img {
+      width: 150px; /* Adjust logo size */
+    }
+
+    .main_menu_option ul {
+      display: flex;
+      gap: 20px;
+    }
+
+    .main_menu_option li {
+      font-size: 16px;
+    }
+
+    .main_menu_button .btn {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+
+    /* Footer Styling */
+    footer {
+      background-color: #0c1323;
+      padding: 10px 20px;
+      color: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .footer-column {
+      flex: 1;
+      min-width: 200px;
+      padding: 0 10px;
+    }
+
+    .footer-column h3 {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    .footer-column p {
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .footer-column ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-column ul li {
+      margin: 8px 0;
+      font-size: 14px;
+    }
+
+    .footer-column ul li:before {
+      content: '>';
+      color: #ffffff;
+      margin-right: 8px;
+      transition: color 0.3s;
+    }
+
+    .footer-column ul li:hover:before {
+      color: #f05454;
+    }
+
+    .footer-column ul li a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.3s;
+    }
+
+    .footer-column ul li a:hover {
+      color: #f05454;
+      text-decoration: underline;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      margin-top:20px;
+      font-size: 13px;
+      color: #888;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .footer-bottom a {
+      color: #f05454;
+      text-decoration: none;
+    }
+
+    .icons {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .icons a {
+      font-size: 14px;
+      color: white;
+      transition: color 0.3s;
+    }
+
+    .icons a:hover {
+      color: #f05454;
+    }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <!-- Top Info Section -->
+    <div class="menu">
+      <div class="top_menu">
+        <div class="top_menu_since">
+          <p>Helping people to move things since 1973</p>
+        </div>
+        <div class="top_menu_add">
+          <ul>
+            <li class="i1"><i class="fa fa-envelope"></i> support@infinityplus.com</li>
+            <li class="i2"><i class="fa fa-map-marker"></i> 5523 Research Park Drive, Suite 110</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Navbar -->
+      <div class="main_menu">
+        <div class="main_menu_logo">
+          <img src="https://demo.casethemes.net/unfinityplus-transport/wp-content/uploads/2018/08/logo.png" alt="Logo">
+        </div>
+        <div class="main_menu_option">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="main_menu_button">
+          <button class="btn"><i class="fa fa-phone"></i> +91 8967543289</button>
+        </div>
+        <div class="main_menu_resp_button">
+          <i class="fa fa-bars"></i>
+        </div>
+      </div>
+    </div>
+    <!-- Slider Area -->
+    <div class="slider_area">
+      <div class="slider_area_blur">
+        <div class="slider_contain">
+          <h1>Transport & Logistic</h1>
+          <p>An unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <button class="btn1">About Us</button>
+          <button class="btn2">Services</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <main>
+    <section class="why-choose-us">
+      <h1>Why choose us</h1>
+      <p>Services we provide</p>
+      <div class="services">
+        <div class="service-box">
+          <div class="text-container">
+            <h2>International Shipping</h2>
+            <p>Having problems with your truck, van, or any kind of transportation vehicles...</p>
+          </div>
+          <div class="image-container">
+            <img src="image/bg.jpg" alt="International Shipping">
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="text-container">
+            <h2>Ocean Logistics</h2>
+            <p>Organize domestic and international deliveries of collective, complex...</p>
+          </div>
+          <div class="image-container">
+            <img src="image/pexels-kaip-1544372.jpg" alt="Ocean Logistics">
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="text-container">
+            <h2>Warehouse & Storage</h2>
+            <p>Our capacities give us the freedom to take care of your cargo with...</p>
+          </div>
+          <div class="image-container">
+            <img src="image/pexels-chanaka-318741-906494.jpg" alt="Warehouse & Storage">
+          </div>
+        </div>
+        <!-- New Cards -->
+        <div class="service-box">
+          <div class="text-container">
+            <h2>Customs Clearance</h2>
+            <p>Streamline your international trade with our customs clearance services...</p>
+          </div>
+          <div class="image-container">
+            <img src="image/7.jpg" alt="Customs Clearance">
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="text-container">
+            <h2>Road Freight</h2>
+            <p>Experience efficient and reliable road transportation solutions...</p>
+          </div>
+          <div class="image-container">
+            <img src="image/7.jpg" alt="Road Freight">
+          </div>
+        </div>
+        <div class="service-box">
+          <div class="text-container">
+            <h2>Air Freight</h2>
+            <p>Fast and secure air freight solutions for your urgent shipments...</p>
+          </div>
+          <div class="image-container">
+            <img src="image/6.jpg" alt="Air Freight">
+          </div>
+        </div>
+      </div>
+      <!-- Get Services Button -->
+      <div class="button-container">
+        <button class="get-services-button">Get Services</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-column">
+      <img src="https://demo.casethemes.net/unfinityplus-transport/wp-content/uploads/2018/08/logo.png" alt="Logo">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="footer-column">
+      <h3>LINKS</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h3>SUPPORT</h3>
+      <ul>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Submit a Ticket</a></li>
+        <li><a href="#">Visit Knowledge Base</a></li>
+        <li><a href="#">Support System</a></li>
+        <li><a href="#">Refund Policy</a></li>
+        <li><a href="#">Professional Services</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h3>GALLERY</h3>
+      <div class="gallery">
+        <img src="image/i1.jpg" alt="Gallery Image 1">
+        <img src="image/i2.jpg" alt="Gallery Image 2">
+        <img src="image/i3.jpg" alt="Gallery Image 3">
+        <img src="image/i4.jpg" alt="Gallery Image 4">
+        <img src="image/i5.jpg" alt="Gallery Image 5">
+        <img src="image/i6.jpg" alt="Gallery Image 6">
+      </div>
+    </div>
+  </footer>
+
+  <div class="footer-bottom">
+    <p>2024 &copy; All Rights Reserved by <a href="#">CaseThemes</a></p>
+    <div class="icons">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="#"><i class="fa-brands fa-google"></i></a>
+      <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+    </div>
+  </div>
+</body>
+</html>
